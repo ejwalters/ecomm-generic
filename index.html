@@ -1,0 +1,165 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script>
+        !function () {
+            var i = "analytics", analytics = window[i] = window[i] || []; if (!analytics.initialize) if (analytics.invoked) window.console && console.error && console.error("Segment snippet included twice."); else {
+                analytics.invoked = !0; analytics.methods = ["trackSubmit", "trackClick", "trackLink", "trackForm", "pageview", "identify", "reset", "group", "track", "ready", "alias", "debug", "page", "screen", "once", "off", "on", "addSourceMiddleware", "addIntegrationMiddleware", "setAnonymousId", "addDestinationMiddleware", "register"]; analytics.factory = function (e) { return function () { if (window[i].initialized) return window[i][e].apply(window[i], arguments); var n = Array.prototype.slice.call(arguments); if (["track", "screen", "alias", "group", "page", "identify"].indexOf(e) > -1) { var c = document.querySelector("link[rel='canonical']"); n.push({ __t: "bpc", c: c && c.getAttribute("href") || void 0, p: location.pathname, u: location.href, s: location.search, t: document.title, r: document.referrer }) } n.unshift(e); analytics.push(n); return analytics } }; for (var n = 0; n < analytics.methods.length; n++) { var key = analytics.methods[n]; analytics[key] = analytics.factory(key) } analytics.load = function (key, n) { var t = document.createElement("script"); t.type = "text/javascript"; t.async = !0; t.setAttribute("data-global-segment-analytics-key", i); t.src = "https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js"; var r = document.getElementsByTagName("script")[0]; r.parentNode.insertBefore(t, r); analytics._loadOptions = n }; analytics._writeKey = "eznOJ1f1AE93h0xn2ErLOTWMhYFPq6gP";; analytics.SNIPPET_VERSION = "5.2.0";
+                analytics.load("eznOJ1f1AE93h0xn2ErLOTWMhYFPq6gP");
+                analytics.page();
+            }
+        }();
+    </script>
+    <title>Vineyard Vines</title>
+</head>
+
+<body>
+    <nav id="nav">
+        <div class="navTop">
+            <div class="navItem">
+                <img src="./img/Vineyard-Vines-logo.png" width="125" height="75" alt="">
+            </div>
+            <h3 class="menuItem">New</h3>
+            <h3 class="menuItem">Men</h3>
+            <h3 class="menuItem">Women</h3>
+            <h3 class="menuItem">Kids</h3>
+            <h3 class="menuItem">Sale</h3>
+        </div>
+    </nav>
+    <div class="banner">
+        Welcome To Vineyard Vines! Enjoy 10% off your order!
+    </div>
+
+    <div class="carousel">
+        <div class="carousel_item">
+            <img class="carousel-img" src="./img/hero-v3.png" height=auto width="100% alt="">
+        </div>
+    </div>
+
+    <div class=" features">
+            <div class="feature">
+                <img src="./img/shipping.png" alt="" class="featureIcon">
+                <span class="featureTitle">FREE SHIPPING</span>
+                <span class="featureDesc">Free worldwide shipping on all orders.</span>
+            </div>
+            <div class="feature">
+                <img class="featureIcon" src="./img/return.png" alt="">
+                <span class="featureTitle">30 DAYS RETURN</span>
+                <span class="featureDesc">No question return and easy refund in 14 days.</span>
+            </div>
+            <div class="feature">
+                <img class="featureIcon" src="./img/gift.png" alt="">
+                <span class="featureTitle">GIFT CARDS</span>
+                <span class="featureDesc">Buy gift cards and use coupon codes easily.</span>
+            </div>
+            <div class="feature">
+                <img class="featureIcon" src="./img/contact.png" alt="">
+                <span class="featureTitle">CONTACT US!</span>
+                <span class="featureDesc">Keep in touch via email and support system.</span>
+            </div>
+        </div>
+
+        <div class="product" id="product">
+            <img src="https://www.vineyardvines.com/dw/image/v2/AAHW_PRD/on/demandware.static/-/Sites-vineyardvines-master/default/dw4215b0a3/images/2024/2E002002_951_CF_OF_0006_A.jpg?sw=864&strip=false"
+                alt="" class="productImg">
+            <div class="productDetails">
+                <h1 class="productTitle">Cotton Cashmere Heritage V-Neck Sweater</h1>
+                <h2 class="productPrice">$199</h2>
+                <div class="colors">
+                    <div class="color"></div>
+                    <div class="color"></div>
+                </div>
+                <div class="sizes">
+                    <div class="size">XS</div>
+                    <div class="size">S</div>
+                    <div class="size">M</div>
+                    <div class="size">L</div>
+                    <div class="size">XL</div>
+                </div>
+                <button class="productButton">Add To Cart</button>
+            </div>
+            <div class="payment">
+                <h1>CART</h1>
+                <img class="cartProductImg" src="./img/mens-vv-2.png" height="50px" width="50px" alt="">
+                <h2 class="cartProductTitle">Cotton Cable Crewneck Sweater</h2>
+                <h3 class="cartProductPrice">$99</h3>
+                <h1 class="payTitle">Personal Information</h1>
+                <label>Name</label>
+                <input id="fullName" type="text" placeholder="" class="payInput">
+                <label>Email</label>
+                <input id="email" type="text" placeholder="" class="payInput">
+                <label>Address</label>
+                <input type="text" placeholder="" class="payInput">
+                <h1 class="payTitle">Card Information</h1>
+                <div class="cardIcons">
+                    <img src="./img/visa.png" width="40" alt="" class="cardIcon">
+                    <img src="./img/master.png" alt="" width="40" class="cardIcon">
+                </div>
+                <input type="password" class="payInput" placeholder="Card Number">
+                <button class="payButton">Checkout!</button>
+                <span class="close">X</span>
+            </div>
+        </div>
+        <footer>
+            <div class="footerLeft">
+                <div class="footerMenu">
+                    <h1 class="fMenuTitle">About Us</h1>
+                    <ul class="fList">
+                        <li class="fListItem">Company</li>
+                        <li class="fListItem">Contact</li>
+                        <li class="fListItem">Careers</li>
+                        <li class="fListItem">Affiliates</li>
+                        <li class="fListItem">Stores</li>
+                    </ul>
+                </div>
+                <div class="footerMenu">
+                    <h1 class="fMenuTitle">Useful Links</h1>
+                    <ul class="fList">
+                        <li class="fListItem">Support</li>
+                        <li class="fListItem">Refund</li>
+                        <li class="fListItem">FAQ</li>
+                        <li class="fListItem">Feedback</li>
+                        <li class="fListItem"><button class="resetAJS">Reset AJS</button></li>
+                    </ul>
+                </div>
+                <div class="footerMenu">
+                    <h1 class="fMenuTitle">Products</h1>
+                    <ul class="fList">
+                        <li class="fListItem">Air Force</li>
+                        <li class="fListItem">Air Jordan</li>
+                        <li class="fListItem">Blazer</li>
+                        <li class="fListItem">Crater</li>
+                        <li class="fListItem">Hippie</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footerRight">
+                <div class="footerRightMenu">
+                    <h1 class="fMenuTitle">Subscribe to our newsletter</h1>
+                    <div class="fMail">
+                        <input type="text" placeholder="your@email.com" class="fInput" id="newsletterEmail">
+                        <button class="fButton">Join!</button>
+                    </div>
+                </div>
+                <div class="footerRightMenu">
+                    <h1 class="fMenuTitle">Follow Us</h1>
+                    <div class="fIcons">
+                        <img src="./img/facebook.png" alt="" class="fIcon">
+                        <img src="./img/twitter.png" alt="" class="fIcon">
+                        <img src="./img/instagram.png" alt="" class="fIcon">
+                        <img src="./img/whatsapp.png" alt="" class="fIcon">
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <script src="./app.js"></script>
+</body>
+
+</html>
